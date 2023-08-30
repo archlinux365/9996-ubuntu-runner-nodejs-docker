@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -x
+set +x
 
 export CMD_PATH=$(cd `dirname $0`; pwd)
 export PROJECT_NAME="${CMD_PATH##*/}"
@@ -18,6 +18,7 @@ git clone https://github.com/nvm-sh/nvm.git .nvm
 cd .nvm
 git checkout v0.39.5
 
+cd ~
 . ~/.nvm/nvm.sh
 nvm install v14.21.3
 nvm use v14.21.3
