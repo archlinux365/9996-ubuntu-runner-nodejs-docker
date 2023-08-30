@@ -17,10 +17,6 @@ apt install build-essential -y
 apt install rename -y
 apt install expect -y
 
-sed -i 's/#\(en_US\.UTF-8\)/\1/' "/etc/locale.gen"
-sed -i 's/#\(zh_CN\.UTF-8\)/\1/' "/etc/locale.gen"
-locale-gen
-
 
 export HOME=/root
 export USER=root
