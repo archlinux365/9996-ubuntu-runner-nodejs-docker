@@ -11,6 +11,7 @@ env
 apt update -y
 apt upgrade -y 
 
+ln -sf "/usr/share/zoneinfo/Asia/Shanghai" "/etc/localtime"
 apt install git -y
 apt install build-essentials -y 
 apt install rename -y
@@ -19,7 +20,7 @@ apt install expect -y
 sed -i 's/#\(en_US\.UTF-8\)/\1/' "/etc/locale.gen"
 sed -i 's/#\(zh_CN\.UTF-8\)/\1/' "/etc/locale.gen"
 locale-gen
-ln -sf "/usr/share/zoneinfo/Asia/Shanghai" "/etc/localtime"
+
 
 export HOME=/root
 export USER=root
