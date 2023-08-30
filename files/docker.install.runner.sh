@@ -33,18 +33,23 @@ set -x
 
 
 cd ~
+mkdir versions
 rm -rf steedos-platform
 git clone --depth=1 -b 2.5 https://github.com/steedos/steedos-platform.git
 cd steedos-platform
 yarn --frozen-lockfile
 export PATH=$(yarn bin):$PATH
-yarn list > yarn.list.origin.txt
+yarn list > ~/versions/yarn.list.origin.txt
 cd creator
 which meteor
 meteor --version
 yarn --frozen-lockfile
 meteor list
-meteor list > meteor.list.origin.txt
-meteor list --tree > meteor.list.tree.origin.txt
+meteor list > ~/versions/meteor.list.origin.txt
+meteor list --tree > ~/versions/meteor.list.tree.origin.txt
 yarn build-debug
-yarn list > yarn.creator.list.origin.txt
+yarn list > ~/versions/yarn.creator.list.origin.txt
+
+yarn cache dir > ~/versions/yarn.cache.dir.origin.txt
+yarn cache list > ~/versions/yarn.cache.list.origin.txt
+
