@@ -37,7 +37,7 @@ git clone git@github.com:archlinux365/9996-ubuntu-docker.git
 
 cd 9996-ubuntu-docker
 mkdir -p versions 
-docker run -v ./versions/:/home/runner/versions2 ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER rsync -avzP /home/runnner/versions/ /home/runner/versions2/
+docker run -v ./versions/:/home/runner/versions2 ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER rsync -avzP /home/runner/versions/ /home/runner/versions2/
 
 git config --global user.email "gnuhub@gmail.com"
 git config --global user.name "gnuhub"
