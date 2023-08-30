@@ -16,6 +16,9 @@ apt install git -y
 apt install build-essential -y 
 apt install rename -y
 apt install expect -y
+apt install curl -y
+apt install wget -y
+apt install rsync -y
 
 
 export HOME=/root
