@@ -7,6 +7,8 @@ export TERM=xterm-256color
 echo $PROJECT_NAME
 cd $CMD_PATH
 env
+sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.list
+sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 
 apt update -y
 apt upgrade -y 
