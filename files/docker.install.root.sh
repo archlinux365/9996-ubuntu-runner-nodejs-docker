@@ -13,7 +13,7 @@ apt upgrade -y
 
 ln -sf "/usr/share/zoneinfo/Asia/Shanghai" "/etc/localtime"
 apt install git -y
-apt install build-essentials -y 
+apt install build-essential -y 
 apt install rename -y
 apt install expect -y
 
