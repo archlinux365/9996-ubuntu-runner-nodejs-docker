@@ -31,6 +31,7 @@ node --version
 set -x
 
 
+
 cd ~
 rm -rf steedos-platform
 git clone --depth=1 -b 2.5 https://github.com/steedos/steedos-platform.git
