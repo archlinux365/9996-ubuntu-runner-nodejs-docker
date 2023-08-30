@@ -47,22 +47,3 @@ jobs:
           password: ${{ secrets.MY_HUB_PASSWORD }}
       - name: build docker
         run: ./6.ci.sh
-      - name: Get build_no
-        id: build_no
-        run: echo "::set-output name=build_no::v1.$GITHUB_RUN_NUMBER"
-  
-      - name: get docker tag
-        id: dockertag
-        run: echo "::set-output name=body::$(date) Please check release.$GITHUB_RUN_NUMBER.packages.list.all.txt and release.$GITHUB_RUN_NUMBER.packages.list.installed.txt docker pull ghcr.io/archlinux365/9318-archlinux-docker-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER "
-      - name: Create release
-        uses: softprops/action-gh-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.build_no.outputs.build_no }}
-          name: ${{ steps.build_no.outputs.build_no }}
-          body: ${{steps.dockertag.outputs.body}}
-          draft: false
-          prerelease: false
-          files: |
-           release.*.txt

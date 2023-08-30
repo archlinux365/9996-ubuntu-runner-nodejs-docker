@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -x
 
 export CMD_PATH=$(cd `dirname $0`; pwd)
@@ -37,19 +36,16 @@ docker run ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER pacm
 docker run ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER pacman -Qe > release.$GITHUB_RUN_NUMBER.packages.list.installed.txt
 
 cd ~/
-git clone git@github.com:archlinux365/9318-archlinux-docker.git
+git clone git@github.com:archlinux365/9996-ubuntu-docker.git
 
-cd 9318-archlinux-docker
-
-docker run ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER pacman -Sl > packages.list.all.txt
-docker run ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER pacman -Qe > packages.list.installed.txt
+cd 9996-ubuntu-docker
+mkdir -p versions 
+docker run -v ./versions/:/home/runner/versions2 ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER rsync -avzP /home/runnner/versions/ /home/runner/versions2/
 
 git config --global user.email "gnuhub@gmail.com"
 git config --global user.name "gnuhub"
 git add .
 git commit -a -m "CI-BOT:$(date +%Y.%m.%d-%H%M%S)-$GITHUB_REF_NAME-$GITHUB_RUN_NUMBER"
-git push origin root 
+git push origin HEAD
 
-git checkout runner 
-git merge root 
-git push origin runner
+

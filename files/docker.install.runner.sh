@@ -34,6 +34,7 @@ set -x
 
 cd ~
 mkdir versions
+mkdir versions2
 rm -rf steedos-platform
 git clone --depth=1 -b 2.5 https://github.com/steedos/steedos-platform.git
 cd steedos-platform
