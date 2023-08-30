@@ -8,6 +8,13 @@ echo $PROJECT_NAME
 cd $CMD_PATH
 env
 
+apt update -y
+apt upgrade -y 
+
+apt install git -y
+apt install build-essentials -y 
+apt install rename -y
+apt install expect -y
 
 sed -i 's/#\(en_US\.UTF-8\)/\1/' "/etc/locale.gen"
 sed -i 's/#\(zh_CN\.UTF-8\)/\1/' "/etc/locale.gen"
