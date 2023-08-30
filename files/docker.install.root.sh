@@ -19,7 +19,7 @@ apt install expect -y
 apt install curl -y
 apt install wget -y
 apt install rsync -y
-
+apt install python3 -y
 
 export HOME=/root
 export USER=root
