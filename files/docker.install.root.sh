@@ -22,6 +22,7 @@ apt install curl -y
 apt install wget -y
 apt install rsync -y
 apt install python3 -y
+apt install sudo -y
 
 export HOME=/root
 export USER=root
