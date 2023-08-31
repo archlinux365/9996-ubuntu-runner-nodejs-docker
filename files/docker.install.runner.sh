@@ -55,5 +55,10 @@ yarn cache dir > ~/versions/yarn.cache.dir.origin.txt
 yarn cache list > ~/versions/yarn.cache.list.origin.txt
 apt list > ~/versions/apt.list.origin.txt
 apt list --installed > ~/versions/apt.list.installed.origin.txt
+
+sed -i "$d" ~/versions/yarn.list.origin.txt
+sed -i "$d" ~/versions/yarn.creator.list.origin.txt
+sed -i "$d" ~/versions/yarn.cache.list.origin.txt
+
 ls -al ~/versions
 date
