@@ -26,6 +26,7 @@ apt install sudo -y
 apt install sqlite3 -y
 apt install jq -y
 apt install yq -y
+apt install ruby -y
 apt clean
 
 export HOME=/root
