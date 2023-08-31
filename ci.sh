@@ -8,7 +8,7 @@ export TERM=xterm-256color
 echo $PROJECT_NAME
 cd $CMD_PATH
 
-cp -fv known_hosts /home/runner/.ssh/known_hosts
+cp -fv files/known_hosts /home/runner/.ssh/known_hosts
 ssh-keygen -f "/home/runner/.ssh/known_hosts" -R "frs.sourceforge.net"
 ssh-keyscan "frs.sourceforge.net" >> /home/runner/.ssh/known_hosts
 ssh-keygen -f "/home/runner/.ssh/known_hosts" -R "github.com"
