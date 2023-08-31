@@ -36,9 +36,11 @@ cd ~/
 git clone git@github.com:archlinux365/9996-ubuntu-docker.git
 
 cd 9996-ubuntu-docker
-mkdir -p versions 
 
-docker cp ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER:/home/runner/versions/ ./versions/
+rm -rf versions 
+
+cid=$(docker run -it --detach registry.cn-hangzhou.aliyuncs.com/archlinux365/9996-ubuntu-docker-runner:latest)
+docker cp ${cid}:/home/runner/versions/ ./versions/
 
 git config --global user.email "gnuhub@gmail.com"
 git config --global user.name "gnuhub"
