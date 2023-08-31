@@ -24,6 +24,8 @@ apt install rsync -y
 apt install python3 -y
 apt install sudo -y
 apt install sqlite3 -y
+apt install jq -y
+apt install yq -y
 apt clean
 
 export HOME=/root
