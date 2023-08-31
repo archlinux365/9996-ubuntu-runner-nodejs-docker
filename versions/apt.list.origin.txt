@@ -67956,7 +67956,7 @@ sqlite-doc/jammy 2.8.17-15fakesync1build1 all
 sqlite3-doc/jammy-updates,jammy-security 3.37.2-2ubuntu0.1 all
 sqlite3-pcre/jammy 0~git20070120091816+4229ecc-2 amd64
 sqlite3-tools/jammy-updates,jammy-security 3.37.2-2ubuntu0.1 amd64
-sqlite3/jammy-updates,jammy-security 3.37.2-2ubuntu0.1 amd64
+sqlite3/jammy-updates,jammy-security,now 3.37.2-2ubuntu0.1 amd64 [installed]
 sqlite/jammy 2.8.17-15fakesync1build1 amd64
 sqlitebrowser/jammy 3.12.1-2 amd64
 sqlline/jammy 1.0.2-8 all
