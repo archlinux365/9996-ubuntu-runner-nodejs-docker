@@ -46,4 +46,4 @@ jobs:
           username: ${{ secrets.MY_HUB_USER }}
           password: ${{ secrets.MY_HUB_PASSWORD }}
       - name: build docker
-        run: ./6.ci.sh
+        run: ./ci.sh
