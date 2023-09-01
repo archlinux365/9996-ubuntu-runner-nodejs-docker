@@ -6900,7 +6900,7 @@ fonts-lao/jammy 0.0.20060226-10ubuntu2 all
 fonts-larabie-deco/jammy 1:20011216-5 all
 fonts-larabie-straight/jammy 1:20011216-5 all
 fonts-larabie-uncommon/jammy 1:20011216-5 all
-fonts-lato/jammy 2.0-2.1 all
+fonts-lato/jammy,now 2.0-2.1 all [installed,automatic]
 fonts-ldco/jammy 1.0.0.part3-1.1 all
 fonts-le-murmure/jammy 0.2-2 all
 fonts-league-mono/jammy 2.220+ds-2 all
@@ -14720,7 +14720,7 @@ javahelp2-doc/jammy 2.0.05.ds1-9.1 all
 javahelp2/jammy 2.0.05.ds1-9.1 all
 javahelper/jammy 0.78 all
 javamorph/jammy 0.0.20100201-3 all
-javascript-common/jammy 11+nmu1 all
+javascript-common/jammy,now 11+nmu1 all [installed,automatic]
 jaxb/jammy 2.3.0.1-10 all
 jaxe/jammy 3.5-13 all
 jaxws/jammy 2.3.0.2-2 all
@@ -29405,7 +29405,7 @@ libjs-jquery-ui/jammy 1.13.1+dfsg-1 all
 libjs-jquery-watermark/jammy 3.1.4-2 all
 libjs-jquery.quicksearch/jammy 2.0.4-1.1 all
 libjs-jquery.sparkline/jammy 2.1.2-3 all
-libjs-jquery/jammy 3.6.0+dfsg+~3.5.13-1 all
+libjs-jquery/jammy,now 3.6.0+dfsg+~3.5.13-1 all [installed,automatic]
 libjs-jsencrypt/jammy 2.3.0+dfsg2-3 all
 libjs-jshash/jammy 2.2-4.1 all
 libjs-json-editor/jammy 1.3.2+ds-2 all
@@ -36999,7 +36999,7 @@ librttr-core0.9.6/jammy 0.9.6+dfsg1-4 amd64
 librttr-dev/jammy 0.9.6+dfsg1-4 amd64
 librubberband-dev/jammy 2.0.0-2 amd64
 librubberband2/jammy 2.0.0-2 amd64
-libruby3.0/jammy-updates,jammy-security 3.0.2-7ubuntu2.4 amd64
+libruby3.0/jammy-updates,jammy-security,now 3.0.2-7ubuntu2.4 amd64 [installed,automatic]
 libruby/jammy 1:3.0~exp1 all
 librudecgi-dev/jammy 5.0.0-1.1ubuntu2 amd64
 librudecgi5v5/jammy 5.0.0-1.1ubuntu2 amd64
@@ -42894,7 +42894,7 @@ libyahc-perl/jammy 0.035-3 all
 libyajl-dev/jammy 2.1.0-3build2 amd64
 libyajl-doc/jammy 2.1.0-3build2 all
 libyajl2/jammy 2.1.0-3build2 amd64
-libyaml-0-2/jammy 0.2.2-1build2 amd64
+libyaml-0-2/jammy,now 0.2.2-1build2 amd64 [installed,automatic]
 libyaml-appconfig-perl/jammy 0.19-1.1 all
 libyaml-cpp-dev/jammy 0.7.0+dfsg-8build1 amd64
 libyaml-cpp0.7/jammy 0.7.0+dfsg-8build1 amd64
@@ -64678,7 +64678,7 @@ rainloop/jammy 1.14.0-3ubuntu1 all
 raintpl/jammy 3.1.1-2 all
 rakarrack/jammy 0.6.1-6 amd64
 rake-compiler/jammy 1.1.1-1 all
-rake/jammy 13.0.6-2 all
+rake/jammy,now 13.0.6-2 all [installed,automatic]
 raku-getopt-long/jammy 0.3.3-2build1 amd64
 raku-tap-harness/jammy 0.3.5-2build1 amd64
 rakudo/jammy 2022.02-1 amd64
@@ -66128,7 +66128,7 @@ ruby-net-ssh-gateway/jammy 2.0.0-2 all
 ruby-net-ssh-krb/jammy 0.4.0-1.1 all
 ruby-net-ssh-multi/jammy 1.2.1-3 all
 ruby-net-ssh/jammy-updates 1:6.1.0-2ubuntu0.1 all
-ruby-net-telnet/jammy 0.1.1-2 all
+ruby-net-telnet/jammy,now 0.1.1-2 all [installed,automatic]
 ruby-netaddr/jammy 1.5.1-3 all
 ruby-netrc/jammy 0.11.0-3 all
 ruby-nfc/jammy 3.1.2-2build2 amd64
@@ -66452,7 +66452,7 @@ ruby-ruby-version/jammy 1.0.1-2 all
 ruby-ruby2-keywords/jammy 0.0.5-1 all
 ruby-ruby2ruby/jammy 2.4.4-2build1 all
 ruby-rubydns/jammy 1.0.3-3 all
-ruby-rubygems/jammy 3.3.5-2 all
+ruby-rubygems/jammy,now 3.3.5-2 all [installed,automatic]
 ruby-rubymail-doc/jammy 1.1.4-1 all
 ruby-rubymail/jammy 1.1.4-1 all
 ruby-rubypants/jammy 0.7.1-1 all
@@ -66701,7 +66701,7 @@ ruby-webkit2-gtk/jammy 3.4.3-1+ubuntu5 all
 ruby-webmock/jammy 3.8.3-1ubuntu1 all
 ruby-webpack-rails/jammy 0.9.11+git-1 all
 ruby-webpacker/jammy 4.2.2-7 all
-ruby-webrick/jammy,jammy-updates 1.7.0-3 all
+ruby-webrick/jammy,jammy-updates,now 1.7.0-3 all [installed,automatic]
 ruby-webrobots/jammy 0.1.2-1 all
 ruby-websocket-driver/jammy 0.6.3-3build3 amd64
 ruby-websocket-extensions/jammy 0.1.5-2 all
@@ -66719,7 +66719,7 @@ ruby-xml-simple/jammy 1.1.5-3 all
 ruby-xmlhash-dbg/jammy 1.3.6-2build7 amd64
 ruby-xmlhash/jammy 1.3.6-2build7 amd64
 ruby-xmlparser/jammy 0.7.3-4build2 amd64
-ruby-xmlrpc/jammy-updates 0.3.2-1ubuntu0.1 all
+ruby-xmlrpc/jammy-updates,now 0.3.2-1ubuntu0.1 all [installed,automatic]
 ruby-xmmsclient/jammy 0.8+dfsg-22build3 amd64
 ruby-xmpp4r/jammy 0.5.6-2 all
 ruby-xpath/jammy 3.2.0-1 all
@@ -66734,9 +66734,9 @@ ruby-zip/jammy 2.3.0-2 all
 ruby-zoom/jammy 0.5.0-2build2 amd64
 ruby3.0-dev/jammy-updates,jammy-security 3.0.2-7ubuntu2.4 amd64
 ruby3.0-doc/jammy-updates,jammy-security 3.0.2-7ubuntu2.4 all
-ruby3.0/jammy-updates,jammy-security 3.0.2-7ubuntu2.4 amd64
-ruby/jammy 1:3.0~exp1 amd64
-rubygems-integration/jammy 1.18 all
+ruby3.0/jammy-updates,jammy-security,now 3.0.2-7ubuntu2.4 amd64 [installed,automatic]
+ruby/jammy,now 1:3.0~exp1 amd64 [installed]
+rubygems-integration/jammy,now 1.18 all [installed,automatic]
 rumur/jammy 2020.12.20-1 amd64
 run-one/jammy 1.17-0ubuntu1 all
 runawk/jammy 1.6.0-2 amd64
@@ -70621,7 +70621,7 @@ unsort/jammy 1.2.1-1build1 amd64
 untex/jammy 1:1.2-7 amd64
 unworkable/jammy 0.53-5build2 amd64
 unyaffs/jammy 0.9.7-0.2 amd64
-unzip/jammy-updates,jammy-security 6.0-26ubuntu3.1 amd64
+unzip/jammy-updates,jammy-security,now 6.0-26ubuntu3.1 amd64 [installed,automatic]
 upass/jammy 0.3.0-1.1 all
 update-inetd/jammy 4.51 all
 update-manager-core/jammy-updates 1:22.04.10 all
@@ -72788,7 +72788,7 @@ zimwriterfs/jammy 3.1.0-3 all
 zinnia-utils/jammy 0.06-6ubuntu2 amd64
 zint-qt/jammy 2.10.0-1 amd64
 zint/jammy 2.10.0-1 amd64
-zip/jammy 3.0-12build2 amd64
+zip/jammy,now 3.0-12build2 amd64 [installed,automatic]
 zipalign/jammy 1:10.0.0+r36-1 amd64
 zipcmp/jammy 1.7.3-1ubuntu2 amd64
 zipmerge/jammy 1.7.3-1ubuntu2 amd64
