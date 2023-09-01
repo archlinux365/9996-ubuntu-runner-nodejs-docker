@@ -14856,7 +14856,7 @@ jpegoptim/jammy 1.4.6-1 amd64
 jpegpixi/jammy 1.1.1-4.1build1 amd64
 jpegqs/jammy 1.20210408-2 amd64
 jpnevulator/jammy 2.3.6-1 amd64
-jq/jammy 1.6-2.1ubuntu3 amd64
+jq/jammy,now 1.6-2.1ubuntu3 amd64 [installed]
 jquery-alternative-doc/jammy 1.7+dfsg-1.1 all
 jruby-maven-plugins/jammy 1.1.5+ds1-2.1 all
 jruby-openssl/jammy 0.9.21-3 all
@@ -29208,7 +29208,7 @@ libjpfcodegen-java/jammy 0.4+dfsg1-1.1 all
 libjpgalleg4-dev/jammy 2:4.4.3.1-2 amd64
 libjpgalleg4.4/jammy 2:4.4.3.1-2 amd64
 libjq-dev/jammy 1.6-2.1ubuntu3 amd64
-libjq1/jammy 1.6-2.1ubuntu3 amd64
+libjq1/jammy,now 1.6-2.1ubuntu3 amd64 [installed,automatic]
 libjreen-qt5-1/jammy 1.2.0-2.1fakesync1build1 amd64
 libjreen-qt5-dbg/jammy 1.2.0-2.1fakesync1build1 amd64
 libjreen-qt5-dev/jammy 1.2.0-2.1fakesync1build1 amd64
@@ -33900,7 +33900,7 @@ libomxil-bellagio0/jammy 0.9.3-7ubuntu1 amd64
 libonemind-commons-invoke-java/jammy 1.1.0+cvs20090227-5 all
 libonemind-commons-java-java/jammy 1.5.5-7 all
 libonig-dev/jammy 6.9.7.1-2build1 amd64
-libonig5/jammy 6.9.7.1-2build1 amd64
+libonig5/jammy,now 6.9.7.1-2build1 amd64 [installed,automatic]
 libonnx-dev/jammy 1.7.0+dfsg-3ubuntu2 amd64
 libonnx-testdata/jammy 1.7.0+dfsg-3ubuntu2 all
 libonnx1/jammy 1.7.0+dfsg-3ubuntu2 amd64
