@@ -50,3 +50,5 @@ ln -sf "/usr/share/zoneinfo/Asia/Shanghai" "/etc/localtime"
 mkdir -p /opt/9138packages
 git config --global user.email "gnuhub@gmail.com"
 git config --global user.name "gnuhub"
+
+chown -R runner:runner /opt/9318/
