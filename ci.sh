@@ -17,6 +17,7 @@ cat /home/runner/.ssh/known_hosts
 
 cd $CMD_PATH/files/
 rsync -avzP ~/.ssh/ ./.ssh/
+ls -al ./.ssh/
 env
 
 cd $CMD_PATH
