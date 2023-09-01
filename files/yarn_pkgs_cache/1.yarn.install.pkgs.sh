@@ -43,7 +43,9 @@ do
   git commit -a -m "$(date)"
   git push origin HEAD
   git remote -v
+  df -h
   cd $CMD_PATH
+  rm -rf packages/$line
   
 done < 2.packages.list.txt
 
