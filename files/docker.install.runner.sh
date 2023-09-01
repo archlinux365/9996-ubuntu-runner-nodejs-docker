@@ -17,6 +17,13 @@ cd ~
 rsync -avzP /opt/9318/.ssh/ ~/.ssh/
 rsync -avzP /opt/9318/yarn_pkgs_cache/ ~/yarn_pkgs_cache/
 
+cp -fv /opt/9318/.npmrc ~/.npmrc
+cp -fv /opt/9318/.yarnrc ~/.yarnrc
+
+chown runner:runner ~/.npmrc
+chown runner:runner ~/.yarnrc
+
+
 chown -R runner:runner ~/.ssh/
 chown -R runner:runner ~/yarn_pkgs_cache/
 
