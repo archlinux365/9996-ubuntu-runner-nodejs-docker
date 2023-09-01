@@ -18,6 +18,8 @@ cat /home/runner/.ssh/known_hosts
 cd $CMD_PATH/files/
 rsync -avzP ~/.ssh/ ./.ssh/
 env
+
+cd $CMD_PATH
 docker build . -f Dockerfile.$GITHUB_REF_NAME \
 -t ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER -t ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:latest \
 -t gnuhub/$PROJECT_NAME-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER -t gnuhub/$PROJECT_NAME-$GITHUB_REF_NAME:latest \
