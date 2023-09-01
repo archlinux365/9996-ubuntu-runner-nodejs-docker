@@ -20,7 +20,7 @@ unset GIT_PROXY_COMMAND
 
 while read -r line
 do
-{
+
   echo "$line"
   mkdir -p packages/$line
   cd packages/$line
@@ -43,7 +43,6 @@ do
   git commit -a -m "$(date)"
   git push origin HEAD
   git remote -v
-} &
   cd $CMD_PATH
   
 done < 2.packages.list.txt
