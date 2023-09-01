@@ -17,8 +17,8 @@ jobs:
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
         with:
-          key: ${{ secrets.MY_SF_SSH }} 
-          known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+          key: ${{ secrets.MY_ARCH_SSH }} 
+          known_hosts: 'gitlab.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFSMqzJeV9rUzU4kWitGjeR4PWSa29SPqJ1fVkhtj3Hw9xjLVXVYrU9QlYWrOLXBpQ6KWjbjTDTdDkoohFzgbEY='
       - name: Check Out Repo 
         uses: actions/checkout@v3
       - name: Login to Github Packages

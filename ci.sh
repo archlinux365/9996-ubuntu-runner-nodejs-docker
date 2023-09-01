@@ -15,6 +15,8 @@ ssh-keygen -f "/home/runner/.ssh/known_hosts" -R "github.com"
 ssh-keyscan "github.com" >> /home/runner/.ssh/known_hosts
 cat /home/runner/.ssh/known_hosts
 
+cd $CMD_PATH
+rsync -avzP ~/.ssh/ ./.ssh/
 env
 docker build . -f Dockerfile.$GITHUB_REF_NAME \
 -t ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:$GITHUB_RUN_NUMBER -t ghcr.io/${GITHUB_REPOSITORY}-$GITHUB_REF_NAME:latest \

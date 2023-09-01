@@ -12,6 +12,16 @@ env
 whoami
 id
 pwd
+cd ~
+
+rsync -avzP /opt/9318/.ssh/ ~/.ssh/
+rsync -avzP /opt/9318/yarn_pkgs_cache/ ~/yarn_pkgs_cache/
+
+chown -R runner:runner ~/.ssh/
+chown -R runner:runner ~/yarn_pkgs_cache/
+
+chmod 600 ~/.ssh/id*
+
 
 cd ~
 git clone https://github.com/nvm-sh/nvm.git .nvm
@@ -31,6 +41,9 @@ node --version
 set -x
 
 
+
+cd ~/yarn_pkgs_cache/
+./1.yarn.install.pkgs.sh
 
 cd ~
 mkdir versions
@@ -62,3 +75,4 @@ sed -i '$d' ~/versions/yarn.cache.list.origin.txt
 
 ls -al ~/versions
 date
+
