@@ -13,7 +13,8 @@ whoami
 id
 pwd
 cd ~
-
+git config --global user.email "gnuhub@gmail.com"
+git config --global user.name "gnuhub"
 rsync -avzP /opt/9318/.ssh/ ~/.ssh/
 rsync -avzP /opt/9318/yarn_pkgs_cache/ ~/yarn_pkgs_cache/
 
