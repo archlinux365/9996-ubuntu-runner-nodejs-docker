@@ -48,6 +48,8 @@ which node
 node --version
 set -x
 
+npm  config set -g python /usr/bin/python2
+yarn config set python /usr/bin/python2 -g
 
 
 cd ~/yarn_pkgs_cache/

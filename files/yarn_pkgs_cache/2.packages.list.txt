@@ -189,7 +189,6 @@
 @steedos/steedos-model-generator
 @steedos/ee_sso
 @steedos/lowcode-widgets
-@steedos/cli
 @steedos/mongodb-memory-server-core
 @steedos/design-system-react
 @steedos/plugin-monaco-editor
