@@ -94,6 +94,7 @@ steedos:objects-billing              0.0.1  Creator billing objects
 steedos:objects-core                 0.0.9+ Creator core objects
 steedos:odata                        0.0.7+ Steedos odata libraries
 steedos:qcloud-smsqueue              0.0.5+ qcloud smsqueue
+steedos:records-qhd                  0.0.10+ Steedos libraries
 steedos:slipjs                       2.1.0+ UI library for manipulating lists...
 steedos:smsqueue                     0.0.4+ steedos smsqueue
 steedos:theme                        0.0.30+ Steedos Theme

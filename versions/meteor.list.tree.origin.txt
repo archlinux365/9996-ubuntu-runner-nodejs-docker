@@ -1018,6 +1018,35 @@ steedos:qcloud-smsqueue@0.0.5
 ├── random@1.1.0 (top level)
 ├── steedos:smsqueue@0.0.4 (top level)
 └── underscore@1.0.10
+steedos:records-qhd@0.0.10
+├── aldeed:autoform@5.8.1 (top level)
+├── aldeed:collection2@2.10.0 (top level)
+├── aldeed:simple-schema@1.5.4 (top level)
+├── aldeed:tabular@1.6.1 (top level)
+├── blaze@2.3.4 (expanded above)
+├── check@1.3.1 (top level)
+├── coffeescript@1.12.7_3 (top level)
+├── ddp@1.4.0 (expanded above)
+├── ddp-rate-limiter@1.0.7 (top level)
+├── flemay:less-autoprefixer@1.2.0 (expanded above)
+├── kadira:blaze-layout@2.3.0 (top level)
+├── kadira:flow-router@2.12.1 (top level)
+├── matb33:collection-hooks@0.9.0-rc.4 (top level)
+├── meteorhacks:ssr@2.2.0 (expanded above)
+├── meteorhacks:subs-manager@1.6.4 (top level)
+├── momentjs:moment@2.14.1
+├── mrt:moment-timezone@0.2.1 (top level)
+├── nimble:restivus@0.8.12 (expanded above)
+├── random@1.1.0 (top level)
+├── reactive-dict@1.3.0 (top level)
+├── reactive-var@1.0.11 (top level)
+├── session@1.2.0 (top level)
+├── simple:json-routes@2.1.0 (expanded above)
+├── tap:i18n@1.9.1 (top level)
+├── templating@1.3.2 (expanded above)
+├── tracker@1.2.0 (top level)
+├── underscore@1.0.10
+└── webapp@1.8.0 (expanded above)
 steedos:slipjs@2.1.0
 steedos:smsqueue@0.0.4
 ├── check@1.3.1 (top level)
