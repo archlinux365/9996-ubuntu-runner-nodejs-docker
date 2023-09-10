@@ -3713,7 +3713,7 @@ cupt-dbg/jammy 2.10.4+nmu1build1 amd64
 cupt/jammy 2.10.4+nmu1build1 amd64
 cura-engine/jammy 1:4.13.0-1 amd64
 cura/jammy 4.13.0-1 all
-curl/jammy-updates,jammy-security 7.81.0-1ubuntu1.13 amd64
+curl/jammy-updates,jammy-security,now 7.81.0-1ubuntu1.13 amd64 [installed]
 curlftpfs/jammy 0.9.2-9build1 amd64
 curry-frontend/jammy 2.0.0-2build1 amd64
 curry-libs-source/jammy 3.0.0-2 all
@@ -20193,7 +20193,7 @@ libcurl4-doc/jammy-updates,jammy-security 7.81.0-1ubuntu1.13 all
 libcurl4-gnutls-dev/jammy-updates,jammy-security 7.81.0-1ubuntu1.13 amd64
 libcurl4-nss-dev/jammy-updates,jammy-security 7.81.0-1ubuntu1.13 amd64
 libcurl4-openssl-dev/jammy-updates,jammy-security 7.81.0-1ubuntu1.13 amd64
-libcurl4/jammy-updates,jammy-security 7.81.0-1ubuntu1.13 amd64
+libcurl4/jammy-updates,jammy-security,now 7.81.0-1ubuntu1.13 amd64 [installed,automatic]
 libcurlpp-dev/jammy 0.8.1-5 amd64
 libcurlpp0/jammy 0.8.1-5 amd64
 libcurry-perl/jammy 2.000001-1 all
