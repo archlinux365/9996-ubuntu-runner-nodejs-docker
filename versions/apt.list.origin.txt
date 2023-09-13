@@ -58830,7 +58830,7 @@ python-oslo.i18n-doc/jammy 5.1.0-0ubuntu1 all
 python-oslo.log-doc/jammy-updates 4.6.1-0ubuntu1.1 all
 python-oslo.middleware-doc/jammy 4.5.0-0ubuntu1 all
 python-oslo.policy-doc/jammy 3.11.0-0ubuntu1 all
-python-oslo.privsep-doc/jammy 2.7.0-0ubuntu1 all
+python-oslo.privsep-doc/jammy-updates 2.7.0-0ubuntu2 all
 python-oslo.reports-doc/jammy 2.3.0-0ubuntu1 all
 python-oslo.serialization-doc/jammy 4.2.0-0ubuntu1 all
 python-oslo.service-doc/jammy 2.8.0-0ubuntu1 all
@@ -61424,7 +61424,7 @@ python3-oslo.messaging/jammy-updates 12.13.0-0ubuntu1.1 all
 python3-oslo.metrics/jammy 0.4.0-0ubuntu1 all
 python3-oslo.middleware/jammy 4.5.0-0ubuntu1 all
 python3-oslo.policy/jammy 3.11.0-0ubuntu1 all
-python3-oslo.privsep/jammy 2.7.0-0ubuntu1 all
+python3-oslo.privsep/jammy-updates 2.7.0-0ubuntu2 all
 python3-oslo.reports/jammy 2.3.0-0ubuntu1 all
 python3-oslo.rootwrap/jammy 6.3.1-0ubuntu1 all
 python3-oslo.serialization/jammy 4.2.0-0ubuntu1 all
@@ -66888,7 +66888,7 @@ ruby-re2/jammy 1.2.0-1build5 amd64
 ruby-recaptcha/jammy 4.11.1-2 all
 ruby-recursive-open-struct/jammy 1.1.3-1 all
 ruby-redcarpet/jammy 3.5.1-1build2 amd64
-ruby-redcloth/jammy 4.3.2-4 amd64
+ruby-redcloth/jammy-updates,jammy-security 4.3.2-4ubuntu0.22.04.1 amd64
 ruby-redis-actionpack/jammy 5.2.0-2 all
 ruby-redis-activesupport/jammy 5.3.0-1 all
 ruby-redis-namespace/jammy 1.8.1-1 all
