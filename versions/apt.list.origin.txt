@@ -69911,7 +69911,7 @@ themonospot/jammy 0.7.3.1-7.1 all
 therion-doc/jammy 6.0.5-1 all
 therion-viewer/jammy 6.0.5-1 amd64
 therion/jammy 6.0.5-1 amd64
-thermald/jammy-updates 2.4.9-1ubuntu0.3 amd64
+thermald/jammy-updates 2.4.9-1ubuntu0.4 amd64
 theseus-examples/jammy 3.3.0-10build1 all
 theseus/jammy 3.3.0-10build1 amd64
 thesias/jammy 3.1.1-1 amd64
