@@ -71325,7 +71325,7 @@ valadoc/jammy 0.56.0-1 amd64
 valentina-l10n/jammy 0.7.49~dfsg-2 all
 valentina/jammy 0.7.49~dfsg-2 amd64
 valgrind-dbg/jammy 1:3.18.1-1ubuntu2 amd64
-valgrind-if-available/jammy 3.18.1 amd64
+valgrind-if-available/jammy,jammy-updates 3.18.1 amd64
 valgrind-mpi/jammy 1:3.18.1-1ubuntu2 amd64
 valgrind/jammy 1:3.18.1-1ubuntu2 amd64
 validns/jammy 0.8+git20170804-0ubuntu3 amd64
