@@ -3726,8 +3726,7 @@ yarn list v1.22.19
 │  └─ xmlbuilder@13.0.2
 ├─ ansi-color@0.2.1
 ├─ ansi-escapes@4.3.2
-│  ├─ type-fest@^0.21.3
-│  └─ type-fest@0.21.3
+│  └─ type-fest@^0.21.3
 ├─ ansi-regex@2.1.1
 ├─ ansi-styles@4.3.0
 │  └─ color-convert@^2.0.1
@@ -5841,8 +5840,7 @@ yarn list v1.22.19
 │  ├─ p-event@^4.0.0
 │  ├─ responselike@^2.0.0
 │  ├─ to-readable-stream@^2.0.0
-│  ├─ type-fest@^0.10.0
-│  └─ type-fest@0.10.0
+│  └─ type-fest@^0.10.0
 ├─ graceful-fs@4.2.10
 ├─ graceful-readlink@1.0.1
 ├─ graphql-extensions@0.16.0
@@ -7565,7 +7563,6 @@ yarn list v1.22.19
 │  ├─ redent@^3.0.0
 │  ├─ trim-newlines@^3.0.0
 │  ├─ type-fest@^0.18.0
-│  ├─ type-fest@0.18.1
 │  └─ yargs-parser@^20.2.3
 ├─ merge-descriptors@1.0.1
 ├─ merge-stream@2.0.0
@@ -9625,11 +9622,9 @@ yarn list v1.22.19
 │  │  ├─ @types/normalize-package-data@^2.4.0
 │  │  ├─ normalize-package-data@^2.5.0
 │  │  ├─ parse-json@^5.0.0
-│  │  ├─ type-fest@^0.6.0
-│  │  └─ type-fest@0.6.0
+│  │  └─ type-fest@^0.6.0
 │  ├─ semver@5.7.1
-│  ├─ type-fest@^0.8.1
-│  └─ type-fest@0.8.1
+│  └─ type-fest@^0.8.1
 ├─ read-pkg@3.0.0
 │  ├─ hosted-git-info@2.8.9
 │  ├─ load-json-file@^4.0.0
@@ -10505,7 +10500,6 @@ yarn list v1.22.19
 │  ├─ temp-dir@^2.0.0
 │  ├─ temp-dir@2.0.0
 │  ├─ type-fest@^0.16.0
-│  ├─ type-fest@0.16.0
 │  └─ unique-string@^2.0.0
 ├─ terser@5.15.1
 │  ├─ @jridgewell/source-map@^0.3.2
@@ -10594,7 +10588,7 @@ yarn list v1.22.19
 ├─ tweetnacl@0.14.5
 ├─ type-check@0.3.2
 │  └─ prelude-ls@~1.1.2
-├─ type-fest@0.6.0
+├─ type-fest@0.21.3
 ├─ type-is@1.6.18
 │  ├─ media-typer@0.3.0
 │  └─ mime-types@~2.1.24
@@ -10857,7 +10851,6 @@ yarn list v1.22.19
 │  ├─ pify@4.0.1
 │  ├─ sort-keys@^2.0.0
 │  ├─ type-fest@^0.4.1
-│  ├─ type-fest@0.4.1
 │  ├─ write-file-atomic@2.4.3
 │  │  ├─ graceful-fs@^4.1.11
 │  │  ├─ imurmurhash@^0.1.4
