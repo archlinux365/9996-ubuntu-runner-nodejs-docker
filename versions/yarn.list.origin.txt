@@ -2989,7 +2989,6 @@ yarn list v1.22.19
 │  ├─ @steedos/service-sidecar@2.5.14-beta.11
 │  ├─ @steedos/service-steedos-server@2.5.14-beta.11
 │  ├─ @steedos/steedos-plugin-schema-builder@2.5.14-beta.11
-│  ├─ @steedos/unpkg@2.5.14-beta.11
 │  ├─ @steedos/workflow_time_trigger@2.5.14-beta.11
 │  ├─ aliyun-sdk@1.12.3
 │  ├─ async-retry@^1.3.1
@@ -3334,7 +3333,6 @@ yarn list v1.22.19
 │  ├─ @steedos/standard-process@2.5.14-beta.11
 │  ├─ @steedos/standard-space@2.5.14-beta.11
 │  ├─ @steedos/standard-ui@2.5.14-beta.11
-│  ├─ @steedos/unpkg@2.5.14-beta.11
 │  ├─ @steedos/webapp-accounts@2.5.14-beta.11
 │  ├─ @steedos/webapp-public@2.5.14-beta.11
 │  ├─ @steedos/workflow@2.5.14-beta.11
@@ -3441,7 +3439,6 @@ yarn list v1.22.19
 │  ├─ body-parser@^1.19.0
 │  ├─ express@^4.17.1
 │  └─ underscore@^1.9.1
-├─ @steedos/unpkg@2.5.14-beta.11
 ├─ @steedos/webapp-accounts@2.5.14-beta.11
 │  └─ lodash@^4.17.21
 ├─ @steedos/webapp-desktop@2.5.14-beta.11

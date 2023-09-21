@@ -57,7 +57,6 @@ standard-minifier-js                 2.6.0* Standard javascript minifiers use...
 steedos:adminlte                     2.3.12_3  AdminLTE dashboard theme
 steedos:api                          0.0.1+ Steedos api libraries
 steedos:api-authenticate-user        1.0.0+ Authenticate user via auth access...
-steedos:app-chat                     0.0.1+ Creator chat
 steedos:app-workflow                 0.0.15+ Creator workflow
 steedos:autoform-bs-datetimepicker   1.0.8  Custom bootstrap-datetimepicker i...
 steedos:autoform-bs-minicolors       1.0.0  Custom bootstrap-minicolors input...
@@ -89,7 +88,6 @@ steedos:meteor-fix                   0.0.1+ Steedos meteor-fix libraries
 steedos:object-database              0.0.2+ Steedos Creator
 steedos:object-webhooks-queue        0.0.1+ Queue for objectwebhooks
 steedos:objects                      0.0.15+ Steedos Creator
-steedos:objects-billing              0.0.1  Creator billing objects
 steedos:objects-core                 0.0.9+ Creator core objects
 steedos:odata                        0.0.7+ Steedos odata libraries
 steedos:qcloud-smsqueue              0.0.5+ qcloud smsqueue

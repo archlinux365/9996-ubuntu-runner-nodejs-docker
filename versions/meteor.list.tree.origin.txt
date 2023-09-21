@@ -479,16 +479,6 @@ steedos:api-authenticate-user@1.0.0
 ├── coffeescript@1.12.7_3 (top level)
 ├── ecmascript@0.14.2 (top level)
 └── simple:json-routes@2.1.0 (expanded above)
-steedos:app-chat@0.0.1
-├── blaze@2.3.4 (expanded above)
-├── coffeescript@1.12.7_3 (top level)
-├── ecmascript@0.14.2 (top level)
-├─┬ flemay:less-autoprefixer@1.2.0
-│ ├── caching-compiler@1.2.1 (expanded above)
-│ └── ecmascript@0.14.2 (top level)
-├── steedos:base@0.1.13 (top level)
-├── steedos:creator@0.0.9 (top level)
-└── templating@1.3.2 (expanded above)
 steedos:app-workflow@0.0.15
 ├── aldeed:collection2@2.10.0 (top level)
 ├── aldeed:simple-schema@1.5.4 (top level)
@@ -499,7 +489,9 @@ steedos:app-workflow@0.0.15
 ├── ddp@1.4.0 (expanded above)
 ├── ddp-rate-limiter@1.0.7 (top level)
 ├── ecmascript@0.14.2 (top level)
-├── flemay:less-autoprefixer@1.2.0 (expanded above)
+├─┬ flemay:less-autoprefixer@1.2.0
+│ ├── caching-compiler@1.2.1 (expanded above)
+│ └── ecmascript@0.14.2 (top level)
 ├── kadira:flow-router@2.12.1 (top level)
 ├─┬ meteorhacks:ssr@2.2.0
 │ ├── blaze@2.3.4 (expanded above)
@@ -612,7 +604,25 @@ steedos:base@0.1.13
 ├── steedos:i18n-iso-countries@3.3.0 (top level)
 ├── steedos:ionicons@0.1.7
 ├── steedos:objects@0.0.15 (top level)
-├── steedos:objects-billing@0.0.1 (top level)
+├─┬ steedos:objects-billing@0.0.1
+│ ├── aldeed:simple-schema@1.5.4 (top level)
+│ ├── check@1.3.1 (top level)
+│ ├── coffeescript@1.12.7_3 (top level)
+│ ├── ddp@1.4.0 (expanded above)
+│ ├── ddp-rate-limiter@1.0.7 (top level)
+│ ├── ecmascript@0.14.2 (top level)
+│ ├── random@1.1.0 (top level)
+│ ├── reactive-dict@1.3.0 (top level)
+│ ├── reactive-var@1.0.11 (top level)
+│ ├── session@1.2.0 (top level)
+│ ├── steedos:cfs-aliyun@0.1.0_6 (top level)
+│ ├── steedos:cfs-s3@0.1.4_4 (top level)
+│ ├── steedos:cfs-standard-packages@0.5.10_6 (top level)
+│ ├── steedos:objects@0.0.15 (top level)
+│ ├── templating@1.3.2 (expanded above)
+│ ├── tracker@1.2.0 (top level)
+│ ├── underscore@1.0.10
+│ └── universe:i18n@1.20.0 (expanded above)
 ├── steedos:objects-core@0.0.9 (top level)
 ├── steedos:theme@0.0.30 (top level)
 ├── steedos:ui@0.0.1 (top level)
@@ -951,25 +961,6 @@ steedos:objects@0.0.15
 ├── underscore@1.0.10
 ├── universe:i18n@1.20.0 (expanded above)
 └── webapp@1.8.0 (expanded above)
-steedos:objects-billing@0.0.1
-├── aldeed:simple-schema@1.5.4 (top level)
-├── check@1.3.1 (top level)
-├── coffeescript@1.12.7_3 (top level)
-├── ddp@1.4.0 (expanded above)
-├── ddp-rate-limiter@1.0.7 (top level)
-├── ecmascript@0.14.2 (top level)
-├── random@1.1.0 (top level)
-├── reactive-dict@1.3.0 (top level)
-├── reactive-var@1.0.11 (top level)
-├── session@1.2.0 (top level)
-├── steedos:cfs-aliyun@0.1.0_6 (top level)
-├── steedos:cfs-s3@0.1.4_4 (top level)
-├── steedos:cfs-standard-packages@0.5.10_6 (top level)
-├── steedos:objects@0.0.15 (top level)
-├── templating@1.3.2 (expanded above)
-├── tracker@1.2.0 (top level)
-├── underscore@1.0.10
-└── universe:i18n@1.20.0 (expanded above)
 steedos:objects-core@0.0.9
 ├── aldeed:simple-schema@1.5.4 (top level)
 ├── check@1.3.1 (top level)
